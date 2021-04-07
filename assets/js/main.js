@@ -4,14 +4,14 @@ function switchTheme(){
     // alert(theme);     
     if(theme == 'assets/stylesheets/main.css'){
         document.getElementById('theme').href = 'assets/stylesheets/main-dark.css';
-        document.getElementById('imgtheme').src = 'assets/images/blah.png';
+        document.getElementById('imgtheme').src = 'assets/images/sk.png';
         localStorage["theme"] = dark;
         // alert("switching to dark");
         
     }
     else{
         document.getElementById('theme').href = 'assets/stylesheets/main.css';
-        document.getElementById('imgtheme').src = 'assets/images/art.png';
+        document.getElementById('imgtheme').src = 'assets/images/sk.png';
         localStorage["theme"] = light;
     }
 }
